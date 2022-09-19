@@ -4,48 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easyvoice Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="../styles/styles.css">
+    <title>Easyvoice Inicio</title>
 </head>
 <body class="principal">
-    <header class="border">
-        <img class=logo src="images/logo_easy.png" alt="Easyvoice" width="150" height="60" />
-        <nav class=nav_bar>
-            <ul class="nav_menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li></li>
-            </ul>
+    <header class="border fixed-top">
+        <img class=logo src="images/logo_easy3.ico" alt="Easyvoice" width="150" height="60" />
 
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
 
-        <a class=cta href="./pages/Ingresar.html"><button class="button">Ingresar</button></a>
+            
+        <button type="button" class="btn btn-secondary btn-sm">Ingresar</button>
       
     </header>
-    <main>
-        <section class="border Slider">
-        <div>
-            <img class="Slider_img" src="./images/slider.png" alt="Easyvoice" >
-        </div>
 
-    </section>
-    <section class="border productos">
-        
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusantium cumque delectus quis, quam blanditiis aperiam nulla excepturi tempora incidunt deserunt vel officia beatae iusto similique corporis autem ad odit?</p>
+    <div class="container text-right">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                <h1 class="slider_text">Easyvoice</h1>
+                <h2 class="slider_text">Soluciones en  Sms, Voip y Networks</h2>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2">
+                <img src="/images/slider-img.png" alt="">
+              </div>
+         </div>
+        <div class="row">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="/images/vicidial-logo_300x100.jpeg" style="width: auto; height: 100px;"  alt="">
+                </div>    
+                <div class="col">
+                <img src="/images/Issabel.svg" style="width: auto; height: 100px;"  alt="">
+                </div>
 
-    </section>
-    <br>
-    </section>
-        <section class="border main">
+                <div class="col">
+                <img src="/images/pngegg.png" style="width: auto; height: 100px;"  alt="">
+                </div>
+                <div class="col">
+                    <img src="/images/pngwing.png" style="width: auto; height: 100px;"  alt="">
+                    </div>
+            </div>    
+
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusantium cumque delectus quis, quam blanditiis aperiam nulla excepturi tempora incidunt deserunt vel officia beatae iusto similique corporis autem ad odit?</p>
+        </div>  
 
-        </section>
-        <br>
-        <br>
-    </main>
+        <div class="row boxbody">
+                  
+            <div class="row align-items-center">
+                <div class="col-md-3 ">
+                    <div class="box"></div>
+                </div>    
+
+                <div class="col-md-3 ">
+                    <div class="box"></div>
+                </div> 
+
+            </div>
+              
+        
+    </div>
+    
+ 
+    <div class="services-wrapper">
+        <div class="container svcs-container">
+            <div class="row">
+                <div class="col-sm-4 services-box hoverServices">
+                    <div class="service-icon">
+                        <img alt="Sms" src="/images/sms2.png">
+                    </div>
+                    <div class="info text-center">
+                        <h3 class="services-subheading">
+                          Mensajeria SMS
+                        </h3>
+                    </div>
+                    <div class="info col-lg-10 col-lg-offset-1">
+                        <ul>
+                            <li>Mensajes de Texto Personalizados
+                            </li>
+                            <li>Mensajes de Codigo corto
+                            </li>
+                            <li>Creacion de Campaigns de SMS.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 services-box hoverServices">
+                    <div class="service-icon">
+                        <img alt="Voip" src="/images/phone_icon_by_cemagraphics.png">
+                    </div>
+                    <div class="info text-center">
+                        <h3 class="services-subheading">
+                          Telefonia Voip
+                        </h3>
+                    </div>
+                    <div class="info col-lg-10 col-lg-offset-1">
+                        <ul>
+                            <li>Dialer y Marcadores Predictivos
+                            </li>
+                            <li>Mensajes De Voz Personalizados.
+                            </li>
+                            <li>Desarrollos a medida de TTS Text to Speech.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 services-box hoverServices last">
+                    <div class="service-icon">
+                        <img alt="Networking" src="/images/network.png">
+                    </div>
+                    <div class="info text-center">
+                        <h3 class="services-subheading">
+                          Networking
+                        </h3>
+                    </div>
+                    <div class="info col-lg-10 col-lg-offset-1">
+                        <ul>
+                            <li>Seguridad de Redes
+                            </li>
+                            <li>Servidores y Firewalls.
+                            </li>
+                            <li>Montaje de Wireless Networks.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--row-->
+           
+                </div><!-- svcs-container -->
+            </div><!-- services-wrapper -->
+
+    
+        
+      
+   
+    <br>
+ 
 
     <footer class="border footer">
         <p>copyright 2022 © todos los derechos reservados</p> 
