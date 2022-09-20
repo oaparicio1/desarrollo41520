@@ -151,6 +151,37 @@ h3 {
   }    
 }    
 
+.slider1{
+  color: #455367; 
+font-family: "Kanit", sans-serif;
+font-size: 3em;
+margin: 10px 0 0 10px;
+white-space: nowrap;
+overflow: hidden;
+width: 100%;
+animation: animtext 8s steps(80, end); 
+transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.slider2{
+  color: #455367; 
+font-family: "Kanit", sans-serif;
+font-size: 2em;
+margin: 7px 0 0 7px;
+white-space: nowrap;
+overflow: hidden;
+width: 100%;
+animation: animtext 14s steps(120, end); 
+transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+from {
+   width: 0;
+  transition: all 8s ease-in-out;
+} 
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @keyframes showTopText {
   0% { transform: translate3d(0, 100%, 0); }
