@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@200');
 
 * {
 
@@ -154,7 +155,8 @@ h3 {
 .slider1{
   color: #455367; 
 font-family: "Kanit", sans-serif;
-font-size: 3em;
+font-size: 4em;
+text-shadow: 2px 2px #999 ;
 margin: 10px 0 0 10px;
 white-space: nowrap;
 overflow: hidden;
@@ -165,8 +167,9 @@ transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
 
 .slider2{
   color: #455367; 
-font-family: "Kanit", sans-serif;
+font-family: "Orbitron", sans-serif;
 font-size: 2em;
+text-shadow: 1px 1px #999 ;
 margin: 7px 0 0 7px;
 white-space: nowrap;
 overflow: hidden;
