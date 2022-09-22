@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@200');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.principal {
+    display: grid;
+    grid-template-areas: 
+    "cabecera"
+    "slider"
+    "slider1"
+    "productos"
+    "main"
+    "footer";
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 2fr;
+    height: 100vh;
+  }
+
+li{
+
+    a {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #455367; 
+        text-decoration: none;
+        
+        }
+}
+
+.border {
+    border: 0px;
+  }
+  
+header {
+    grid-area: cabecera;
+    transition: all 0.3s;
+    display:  flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    padding: 7px 5%;
+    background-color: #EFEFEF;
+    
+}
+
+
+.logo {
+   
+    background-color: #EFEFEF;
+
+}
+
+.nav {
+  
+    grid-area: nav;
+    padding: 0;
+    top:0;
+    background-color: #009FE3;
+    
+  }
+  
+.nav_bar{
+
+    li {
+
+        background-color: #EFEFEF;
+     
+    }
+
+} 
+
+.nav_menu {
+            ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        }
+        }
+.nav_menu{
+    li{
+            display: inline-block;
+            padding: 0px 20px;
+            
+            a{
+                transition: all 0.3s ease 0s;
+                left: 14px;
+
+            } 
+    
+    }
+
+}
+
+
+
+.button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    color:#455367; 
+    box-shadow: 0 4px #999;
+}
