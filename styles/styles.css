@@ -324,6 +324,26 @@ h3 {
   text-align: center;
 }
 
+.jumbotron {
+  background-image: url("../images/contactus.jpeg");
+  background-size: 100%;
+  color: #FFF;
+  border-radius: 0px;
+}
+
+.jumbotron-sm {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.jumbotron small {
+  color: #FFF;
+}
+
+.h1 small {
+  font-size: 24px;
+}
+
 @media screen and (min-width: 600px) {
   .principal {
     grid-template-areas: "cabecera" "slider slider1" "productos" "main" "footer footer";

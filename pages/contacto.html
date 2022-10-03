@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta name="description" content="Realiza tus campanas de marketing o campanas electorales con nosotros, te brindaremos una ventaja competitiva en el mercado, Easyvoice tiene experiencia internacional">
+    <meta name="keywords" content="Easyvoice, Asterisk PBX, VIP, Mensajeria, sms, callcenter, IVR, campanas politicas, marketing, desarollo voip, mensajeria whatsapp, ApI, telemarketig, software telemarketing, redes, networking, wireless, servers ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="../styles/styles.css">
-    <title>Easyvoice Inicio</title>
+    <title>Easyvoice Contacto Campanas Voip SMS PBX Asterisk</title>
 </head>
 <body class="principal">
     <header class="border fixed-top">
@@ -38,54 +43,92 @@
 
     <main>
     
-        
-        
-        <div class="container mainbox text-right">
-
-       
-            <div class="row justify-content-center">  
-                <br>
-                <br>
-               <h1>Contactanos</h1>
-            <div class="row">
-               <div class="card bg-light mb-3" style="max-width: 38rem;">
-                <div class="card-header">Datos de Contacto</div>
-                <div class="card-body">
-                  <div class="col-4 mx-auto">
-                   
-                    <div class="mb-3">    
-                        <label for="contact" class="form-label">Nombre:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Nombre">
-                    </div>
-                    <div class="mb-3">
-                        <label for="contact" class="form-label">Apellido:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Apellido">
-                    </div>
-                    <div class="mb-3">
-                        <label for="contact" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="name" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensaje</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <br>
-                    <div>
-                        <input class="btn btn-primary" type="submit" value="Submit">
-                        <input class="btn btn-primary" type="reset" value="Reset">
+            <div class="jumbotron jumbotron-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-14 col-lg-2">
+                            <h1 class="h1">
+                                Contactanos</h1>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="well well-sm">
+                            <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Nombre</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Direccion de Correo</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" placeholder="Email" required="required" /></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">
+                                            Asunto</label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="na" selected="">Elige una opcion:</option>
+                                            <option value="service">Servicio al cliente</option>
+                                            <option value="suggestions">Area Tecnologica</option>
+                                            <option value="product">Sugerencias</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                       Enviar Mensaje</button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span> Direccion</legend>
+                        <address>
+                            <strong>Easyvoice.</strong><br>
+                            km 25<br>
+                            Via al Mar, Barranquilla Colombia<br>
+                            <abbr title="Phone">
+                                Tel:</abbr>
+                            (310) 555-5555
+                        </address>
+                        <address>
+                            <strong>Full Name</strong><br>
+                            <a href="mailto:#">info@easyvoice.tech</a>
+                        </address>
+                        </form>
+                        <div class="col-4 mx-auto">
+                            <img  src="../images/contactus.png" style="width: auto; height: 195px;" alt="contactanos" >
+                        </div>
+                    </div>
+                 
+                    </div>
+                </div>
+            </div>
+            
                 </div> 
                 </div>
                 
-
-                <div class="col-4 mx-auto">
-                    <img  src="../images/contactus.png" style="width: auto; height: 395px;" alt="contactanos" >
-                </div>
-            </div>
-         
-        </div>        
-      
+        
         
     </main>
 </main>
